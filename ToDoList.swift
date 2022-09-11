@@ -15,8 +15,7 @@ struct ContentView: View {
     @State var GoodThing7: String = ""
     var body: some View {
         ScrollView {
-            Image("scientific research")
-            Text(GoodThingPrompt)
+            Text(To-Do List)
                 .font(.title)
                 .fixedSize(horizontal: false, vertical: true)
             TextField("Hello", text: $GoodThing2)
