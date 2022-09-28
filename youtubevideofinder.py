@@ -1,6 +1,10 @@
 import pyautogui as pg
 import time
 
+print("Instructions: Enter video name and desktop name and then switch over to a new tab in google "
+      "within the 5 second delay.")
+print("The program will automatically play the video and also avoid any ad videos "
+      "that appear on top when searching for the specified video")
 name = input("What is the name of the video you want to open? ")
 desktopname = str(input("What is your desktop name?  "))
 path = 'C:\\Users\\'+desktopname+'\\OneDrive\\Desktop\\ss.png'
@@ -10,8 +14,8 @@ time.sleep(5)
 pg.click(855, 66)
 pg.write("youtube")
 pg.press("Enter")
-time.sleep(5)
-pg.click(294, 367) #clicks on first result of search
+time.sleep(3)
+pg.click(294, 367) #clicks on first result of search in google
 time.sleep(5)
 pg.click(765, 119) #clicks on search bar
 pg.write(name)
