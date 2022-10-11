@@ -1,3 +1,2 @@
-# SwiftAppElective
-The code written in the Swift App Elective.
-Hello.
+# Programming Projects
+Original code ideas programmed using python
