@@ -1,6 +1,11 @@
 import pyautogui as pg
 import time
 
+print("Instructions: Enter video name and desktop name and then switch over to a new tab in google "
+      "within the 3 second delay.")
+print("The program will automatically play the video and also avoid any ad videos "
+      "that appear on top when searching for the specified video")
+
 vid_name = input("What is the name of the video you want to open? ")
 desktop_name = str(input("What is your desktop name?  "))
 
