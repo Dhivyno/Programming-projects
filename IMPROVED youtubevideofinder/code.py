@@ -2,7 +2,7 @@ import pyautogui as pg
 import time
 
 print("Instructions: Enter video name and desktop name and then switch over to a new tab in google "
-      "within the 3 second delay.")
+      "within the 3 second delay. You also need to have the youtube search bar and google search bar picture downloaded on your pictures directory")
 print("The program will automatically play the video and also avoid any ad videos "
       "that appear on top when searching for the specified video")
 
