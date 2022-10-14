@@ -18,4 +18,6 @@ for i in range(len(prime_factors)-1):
 answer += "1"
 print(answer)
 if len(prime_factors) == 2:
-	print("wow, your number is a prime!")
+	print("Wow, your number is a prime!")
+else:
+	print("Your number is not a prime.")
